@@ -1,0 +1,18 @@
+ #read firl iris.csv and named it iris
+ 
+iris<-read.csv(file="iris.csv")
+
+#define odd row is %%2!=0 and loop rows in iris
+
+ odd_Row<- function(iris){
+ 
++     for(i in 1:nrow(iris)){
+
++         if(i%%2!=0){
+#return odd rows 
++             return(x[i,])
++             
++         }
++     }
++ }
+> iris
