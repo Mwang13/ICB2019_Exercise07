@@ -16,3 +16,32 @@ iris<-read.csv(file="iris.csv")
 +     }
 + }
 > iris
+
+
+Q2
+
+iris<- read.csv(file="iris.csv")  
+
+>          Count_species<-function(x,species){
+
++            n<- nrow(iris[iris$species==spec,])
+
++            return(n)
+
++            cbind(n,"spec") 
+
++            print("cbind")
++          }
+
+ 
+        >     width_greater_than<- function(width)
++          {
++            return(iris[iris[,2]>width,])
++          }
+>          
+>          species_csv<-function(species){
++            data<-dat[(which(dat$species== species，))]
++           New_name<-pasta(speciews,'csv')
++           print(data,new_name,)}
+> 
+         
